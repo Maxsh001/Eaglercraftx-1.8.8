@@ -37,7 +37,8 @@ public class JavaC {
 
 	public static final List<String> compilerFlags = Arrays.asList(
 			"-Xlint:-unchecked", "-Xlint:-options", "-Xlint:-deprecation",
-			"-source", "1.8", "-target", "1.8"
+			"-source", "1.8", "-target", "1.8",
+			"-encoding", "UTF-8"
 	);
 
 	private static int debugSourceFileCount = 0;
